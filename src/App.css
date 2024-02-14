@@ -18,7 +18,7 @@ body{
   align-items: center;
   gap: 2rem;
   max-width: 35rem;
-  padding: 0 2rem;
+  padding: 0 4rem;
   margin: auto;
   margin-top: 3rem;
   font-family: 'Poppins','sans-serif';
@@ -102,9 +102,32 @@ body{
 .transaction-card-max{
   display: flex;
   width: 100%;
+  align-items: center;
+}
+.transaction-card-max:hover{
+  .delete-btn{
+    opacity: 1;
+  }
 }
 .line-end{
   border-left: 3px solid red;
   height: 2.75rem ;
  
+}
+.flex1{
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  right: 3rem;
+  gap: 1.5rem;
+}
+.delete-btn{
+  width: 1.5rem;
+  height: 1.5rem;
+  outline: none;
+  border: none;
+  background-color: rgb(249, 57, 57);
+  color: white;
+  opacity: 0;
+
 }
